@@ -1,0 +1,103 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E6E6E6;
+  font-weight: 300;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+.card-text-center {
+  background-color: #FFFFFF;
+  color: #7D7D7D;
+  font-family: 'Open Sans', sans serif;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.img-circle {
+  height: 100px;
+  border: 4px;
+  border-radius: 50%;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans serif;
+  font-weight: 300;
+  color: #7D7D7D;
+}
+
+p{
+  text-align: justify;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+h1 {
+  color: #DD5555;
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.btn-red{
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  background-color: #DD5555;
+  color: white;
+}
+
+.btn-red:hover {
+  background-color: #DD4252;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 30px;
+
+}
+.list-inline > li > a {
+  color: #CCCCCC;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.list-inline > li > a > i {
+  font-size: 30px
+}
+
+#lewagon-link {
+  text-decoration: none;
+  color: #CCCCCC;
+  margin: 20px;
+}
+
+#movies {
+  padding: 10px;
+}
+
+#movies > tbody > tr > td {
+  padding: 10px;
+  text-align: center;
+}
+
+#movies > tbody > tr > td > img {
+  height: 100px;
+}
